@@ -48,7 +48,8 @@ TODO: DOM, API, Form Validation etc...
     I used Live Server with Gitpod and Vs Code desktop to ensure live update in my testing environment throughout development. This extension offers an on-save server reload feature, which I use in my everyday work. 
 
 ## Testing
-TODO: 
+#Hamburger menu: 
+
 
 # Validation Error;
 TODO: Html
