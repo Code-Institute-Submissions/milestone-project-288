@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color: #493f3f;
+    align-items: center;
+}
+
+.navlogo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+.navlinks {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.navlinks li {
+    list-style: none;
+}
+
+.navlinks a {
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 12x;
+    text-decoration: none;
+}
+
+.navlinks .active {
+    text-decoration: underline;
+}
