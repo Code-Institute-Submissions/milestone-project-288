@@ -12,7 +12,7 @@ nav {
     display: flex;
     justify-content: space-around;
     min-height: 8vh;
-    background-color: #632f2f;
+    background-color: #a81e22;
     align-items: center;
 }
 
@@ -20,7 +20,17 @@ nav {
     color: whitesmoke;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 14px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.navlogo img {
+    height: 80px;
+    width: 70px;
+    float: left;
+    margin-right: 10px;
 }
 
 .navlinks {

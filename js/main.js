@@ -9,6 +9,3 @@ import {
 
 insertUnderline()
 hamburgerMenu()
-let scoreboardData = GetScoreBoard()
-
-if (scoreboardData) console.log(scoreboardData);
