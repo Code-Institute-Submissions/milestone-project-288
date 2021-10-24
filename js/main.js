@@ -1,6 +1,7 @@
 import {
     insertUnderline,
-    hamburgerMenu
+    hamburgerMenu,
+    Timer
 } from "./utils.js";
 import {
     GetScoreBoard,
@@ -9,3 +10,4 @@ import {
 
 insertUnderline()
 hamburgerMenu()
+Timer(Date.now(), 60000)
