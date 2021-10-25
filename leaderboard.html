@@ -16,6 +16,7 @@
 <body>
     <nav>
         <div class="navlogo">
+            <img src="assets/images/foxhound.png" id="FH" alt="foxhound">
             <h3>The Metal Gear Gauntlet</h3>
         </div>
 
@@ -41,9 +42,19 @@
     </nav>
 
     <div class="leaderboardsection">
-        <div class="leaderboardtable">
+        <table id="leaderboardtable">
+            <thead>
+                <tr>
+                    <th class="lbrank">Rank</th>
+                    <th class="lbusername">Username</th>
+                    <th class="lbscores">Score</th>
+                </tr>
 
-        </div>
+            </thead>
+            <tbody class="leaderboardbody">
+
+            </tbody>
+        </table>
     </div>
 </body>
 <script src="js/main.js" type="module"></script>

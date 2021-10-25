@@ -99,9 +99,10 @@ insertUnderline()
 
 hamburgerMenu()
 
-GetLeaderboard()
+GetScores()
+- Using fetch and an open API for storing JSON Objects [jsonbin.io](https://jsonbin.io/) I was able to populate the leaderboard on-load. 
+UpdateScores()
 
-UpdateLeaderboard()
 
 ### Features Left to Implement
 - I would like to add more games. I will likely continue work on this in my own time, adding more MGS Themed javascript-based games such as;
@@ -177,8 +178,34 @@ Resolved:
     });
 }
 ```
+#Leaderboard: 
+- Issue: 
+I didn't have one specific issue with this, moreso just issues in ordering of calls and updating the table on-load with the newest top-10
 
+- Resolved 
+loadTable() resoslved this by allowing me to clear out all rows
+below the table row header if populated as well as insert the passed in data object `([{user:"",score:""},{user:"",score:""}])`
+```
+function loadTable(data) {
+    //let table = document.getElementsByClassName("leaderboardtable")
+    let table = document.getElementById("leaderboardtable");
+    console.log(table.rows.length)
+    for (let i = table.rows.length - 1; i >= 1; i--) {
+        table.deleteRow(i);
+    }
 
+    for (let i = 9; i !== -1; i--) {
+        let row = table.insertRow(1);
+        let cell1 = row.insertCell(0);
+        let cell2 = row.insertCell(1);
+        let cell3 = row.insertCell(2);
+        cell1.innerHTML = `${i+1}`;
+        cell2.innerHTML = `${data[i].username}`;
+        cell3.innerHTML = `${data[i].score}`;
+    }
+}
+
+```
 # Validation Error;
 (Html)[https://validator.w3.org/]
 (Commit)[]
@@ -223,7 +250,7 @@ Resolved:
 
 
 ### Navigation / Hamburger Menu
-TODO: 
+
 
 ### Per page-section breakdown (as built)
 TODO: 
@@ -237,15 +264,12 @@ TODO:
 ### Media
 TODO: 
 
-## images folder
-TODO: 
-
-## readme_imgs folder
-TODO: 
-
 ### Acknowledgements
 TODO: 
 
 ## Credits
-TODO:
-https://keycode.info/
+[kecode.info](https://keycode.info/)
+[jsonbin.io](https://jsonbin.io/)
+The StackOverflow Community: 
+[exported classes](https://stackoverflow.com/questions/52787527/javascript-creating-an-event-listener-for-an-exported-class)
+[Tables](https://stackoverflow.com/questions/7271490/delete-all-rows-in-an-html-table)
