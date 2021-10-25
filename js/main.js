@@ -62,10 +62,8 @@ function ContactForm() {
     let text = document.getElementById("message");
     let myform = document.getElementById("myform");
     let errElement = document.getElementById("errmsg");
-    console.log("Form");
 
     myform.addEventListener("submit", (e) => {
-        console.log(e);
         let errs = []
         if (name.value === "" || email.value == null) {
             errs.push("Name is required!");
@@ -77,19 +75,13 @@ function ContactForm() {
             errs.push("A message is required!");
         }
         if (!validateEmail(email.value)) errs.push("Invalid Email Address!");
-        console.log(validateEmail(email.value));
-        console.log(errs);
 
         if (errs.length > 0) {
             e.preventDefault();
             errElement.innerHTML = `<p>${errs.join(", ")}</p>`
             errElement.style.padding = "10px";
             errElement.style.display = "block";
-            console.log(errs.join(", "));
-            console.log(errElement.innterText);
         }
-        console.log(errs.join(", "));
-        console.log(errElement.innterText);
 
     });
 }
