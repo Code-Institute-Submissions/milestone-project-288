@@ -34,7 +34,6 @@ export const hamburgerMenu = () => {
 
 export function Timer(time, interval) {
     //Get Timer Element
-
     //SetTimeout -> 1000
     //  Compare time to interval 
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now

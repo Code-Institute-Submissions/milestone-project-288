@@ -7,27 +7,110 @@ The Metal Gear Gauntlet is a website is for fans of the series, or anyone else w
 The current live leaderboard can be found here: [Leaderboard](link to leaderboard)
 
 ## UX 
-TODO: Design
-TODO: WireFrames
-TODO: User stories (First time? Returning Guest? Frequent Guest?)
+Core Audience: 
+This site is for anybody looking to burn 15 minutes winding down or anybody looking to reach the top score spot.
 
-### {Interesting Functionalty highlight?}
-TODO: 
+The goal of the website: 
+The goal of this site is to offer up a multi-game point based gauntlet, built mostly in Javascript to highlight my understanding of the language, and how it can be used for general enjoyment. It also is designed after a game series I’ve enjoyed and would like to convey my appreciation for. 
+
+________________ 
+The Design of the Site: 
+I wanted a basic design for this site, leaning heavily on the themes and colours from Metal Gear Solid 4: Guns of the Patriots - with the majority of my assets and color schemes being taken directly from the game series. 
+
+_______________
+Content Sections; 
+Home
+- Intro to the site
+- Intro to each game
+- Intro to the Leaderboard
+- Intro to the Contact me section
+
+Play
+- codec
+- Welcome screen
+- Game 1 Rules
+- Game 1 wrap-up
+- Game 2 Rules
+- Game 2 wrap-up
+- Game 3 Rules
+- Game 3 wrap-up
+- Game 4 Rules
+- Game 4 wrap-up
+
+Leaderboard
+- Pre-loaded Leaderboard table 
+
+Contact 
+- Thank you for visiting & get in touch section 
+- Form 
+
+WireFrames
+![Home Wireframe](images/readme_imgs/wireframe-home.png)
+![Play Wireframe](images/readme_imgs/wireframe-play.png)
+![Play-Game1 Wireframe](images/readme_imgs/wireframe-play-game1.png)
+![Play-Game2 Wireframe](images/readme_imgs/wireframe-play-game2.png)
+![Play-Game3 Wireframe](images/readme_imgs/wireframe-play-game3.png)
+![Leaderboard Wireframe](images/readme_imgs/wireframe-leaderboard.png)
+![Contact Wireframe](images/readme_imgs/wireframe-contact.png)
+
 ## Features
-TODO: 
+Shared
+- Timer
+- Hamburger Menu 
+- Underline Nav-List element
+- UpdateCodec
 
+Play
+Game 1
+Rock Paper Scissors
+- LoadGame
+- Create Grid (Both player options)
+- Display Round Result
+- IncreaseScore
+- Check Streak
+
+Game 2
+Wack-An-Ocelot 
+- LoadGame
+- Create Grid 
+- DisplayRandomOcelot
+- IsSpecialCheck
+- UpdateScore
+- DisplayRaiden
+
+Game 3
+Mantis Memory Game 
+- Load
+- RandomSort (array of pictures)
+- Create Grid
+- FlipCard
+- CheckMatch
+
+Leaderboard
+- Fetch Leaderboard
+- Sort Leaderboard
+- Display Leaderboard 
+- Add navigation buttons to Leaderboard Table
+
+Contact
+- Contact Me to Discord Webhook
 ### Existing Features
-TODO: DOM, API, Form Validation etc...
-
 insertUnderline()
+
 hamburgerMenu()
 
 GetLeaderboard()
+
 UpdateLeaderboard()
 
 ### Features Left to Implement
-- Javascript driven underlining of active page nav-element
+- I would like to add more games. I will likely continue work on this in my own time, adding more MGS Themed javascript-based games such as;
+    - Tetris
+    - Blackjack (Beat the dealer) 
+    - Pacman-like roaming game to collect items 
+    - Space invaders styled game themed 
 
+- I would also like to implement a database for the leaderboard, and offer a login and game-history section where the user can see previous scores and attempts. 
 
 ## Technologies Used TODO: 
 - [HTML](https://www.w3schools.com/html/)
@@ -40,12 +123,16 @@ UpdateLeaderboard()
     - The project uses **Bootstap** to simplify the content structure and provide pre-built functionalities such as navigational templates and grid-classes.
 - [Jquery](https://jquery.com/)
     - The project uses **Jquery**.
-- [Google Fonts]()
-- [Github]()
-- [Balsamiq]()
+- [Github](https://www.github.com/)
+    I used **Githu** as my Version Constrol Software. 
+- [Gitpod](https://www.gitpod.io/)
+    I used **Gitpod** for active development
+- [Balsamiq](https://balsamiq.cloud/)
+    I used **Balsamiq** to construct my Wireframes
 - [Hexcol](https://hexcol.com/)
+    I used **Hexcol** for reviewing color shades and values. 
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-    I used Live Server with Gitpod and Vs Code desktop to ensure live update in my testing environment throughout development. This extension offers an on-save server reload feature, which I use in my everyday work. 
+    I used **Live Server** with **Gitpod** to ensure live update in my testing environment throughout development. This extension offers an on-save server reload feature, which I use in my everyday work. 
 
 ## Testing
 #Hamburger menu: 
@@ -93,11 +180,47 @@ Resolved:
 
 
 # Validation Error;
-TODO: Html
+(Html)[https://validator.w3.org/]
+(Commit)[]
+![htmlValCheck1](images/readme_imgs/htmlvalcheck1.png)
+(Commit)[]
+![htmlValCheck2](images/readme_imgs/htmlvalcheck2.png)
+(Commit)[]
+![htmlValCheck3](images/readme_imgs/htmlvalcheck3.png)
+(Commit)[]
+![htmlValCheck4](images/readme_imgs/htmlvalcheck4.png)
+(Commit)[]
+![htmlValCheck5](images/readme_imgs/htmlvalcheck5.png)
+(Commit)[]
+![htmlValCheckFinal](images/readme_imgs/htmlvalcheckFinal.png)
 
-TODO: CSS
+(CSS)[https://jigsaw.w3.org/css-validator/]
+(Commit)[]
+![cssValCheck1](images/readme_imgs/cssvalcheck1.png)
+(Commit)[]
+![cssValCheck2](images/readme_imgs/cssvalcheck2.png)
+(Commit)[]
+![cssValCheck3](images/readme_imgs/cssvalcheck3.png)
+(Commit)[]
+![csslValCheck4](images/readme_imgs/cssvalcheck4.png)
+(Commit)[]
+![cssValCheck5](images/readme_imgs/cssvalcheck5.png)
+(Commit)[]
+![cssValCheckFinal](images/readme_imgs/cssvalcheckFinal.png)
 
-TODO: Javascript
+(Javascript)[https://beautifytools.com/javascript-validator.php]
+![jsValCheck1](images/readme_imgs/jsvalcheck1.png)
+
+![jsValCheck2](images/readme_imgs/jsvalcheck2.png)
+
+![jsValCheck3](images/readme_imgs/jsvalcheck3.png)
+
+![jsValCheck4](images/readme_imgs/jsvalcheck4.png)
+
+![jsValCheck5](images/readme_imgs/jsvalcheck5.png)
+
+![jsValCheckFinal](images/readme_imgs/jsvalcheckFinal.png)
+
 
 ### Navigation / Hamburger Menu
 TODO: 
