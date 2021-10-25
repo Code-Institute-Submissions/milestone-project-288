@@ -44,10 +44,12 @@ Contact
 - Form 
 
 WireFrames
-![Home Wireframe](assets/images/readme_imgs/wireframe-home.png)
-![Play Wireframe](assets/images/readme_imgs/wireframe-play.png)
-![Leaderboard Wireframe](assets/images/readme_imgs/wireframe-leaderboard.png)
-![Contact Wireframe](assets/images/readme_imgs/wireframe-contact.png)
+![Home Wireframe](assets/readme_imgs/wireframe-home.png)
+- This design changed during development and I forgot to update the wireframe. 
+
+![Play Wireframe](assets/readme_imgs/wireframe-play.png)
+![Leaderboard Wireframe](assets/readme_imgs/wireframe-leaderboard.png)
+![Contact Wireframe](assets/readme_imgs/wireframe-contact.png)
 
 ## Features
 Shared
@@ -204,17 +206,11 @@ function loadTable(data) {
 }
 
 ```
-#Font: 
-- Issue: 
-Access to font at 'https://blogfonts.com/fonts/m/101/33101/file/METAG___.TTF' from origin 'https://5501-crimson-yak-99i2qpyw.ws-eu17.gitpod.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-- Resolution
-
-# Validation;
-(Html)[https://validator.w3.org/]
-(CSS)[https://jigsaw.w3.org/css-validator/]
-(Javascript)[https://beautifytools.com/javascript-validator.php]
-
-Ran out of time. 
+#Linking the Games together 
+Issue: 
+The original idea was to have each individual game and it's element-creation processes be imported by the main.js file. 
+A function here would sort through the mini-games, and present them with a Loader in-between. 
+On this loader pain, I intended to have instruction-text displayed as if someone was typing/speaking to the end user. 
 
 ### Navigation / Hamburger Menu
 - Using Media Queries in CSS and Javascript functions, the hamburger icon is mimicking an animation when the end user clicks on it. 
@@ -235,6 +231,8 @@ https://evane123.github.io/milestone-project-2/### Content
 
 ### Acknowledgements
 The inspiration for this site came from trying to come up with an engaging idea for putting Javascript to use. 
+- Note: I would say I had higher expectations for what I wanted to accomplish with this site. I believe I got very bogged down with the styling, asset gathering and tedious information that's needed to highlight my learning. 
+
 ## Credits
 [kecode.info](https://keycode.info/)
 - Helped with testing keyevents

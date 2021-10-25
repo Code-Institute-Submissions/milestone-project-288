@@ -10,8 +10,8 @@ import {
     Game1RockPapScis
 } from "./games.js"
 
-let playerscore = 0;
-let gamescore = 0;
+//let playerscore = 0;
+//let gamescore = 0;
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -38,7 +38,6 @@ function buildPage(page) {
         ContactForm()
     }
 }
-
 
 function getActivePage() {
     let page = window.location.pathname.split("/").pop().split(".");
