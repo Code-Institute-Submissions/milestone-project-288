@@ -52,8 +52,6 @@ function test(e) {
 }
 
 document.addEventListener("keyup", test);
-
-
 //ContactForm() handles majority of the validation and checks on the contact form
 function ContactForm() {
     let name = document.getElementById("name");

@@ -25,6 +25,7 @@ Home
 - Intro to the Leaderboard
 - Intro to the Contact me section
 
+
 Play
 - codec
 - Welcome screen
@@ -34,8 +35,6 @@ Play
 - Game 2 wrap-up
 - Game 3 Rules
 - Game 3 wrap-up
-- Game 4 Rules
-- Game 4 wrap-up
 
 Leaderboard
 - Pre-loaded Leaderboard table 

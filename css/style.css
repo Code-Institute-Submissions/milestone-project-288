@@ -10,7 +10,6 @@ body {
     background-color: rgb(204, 204, 204);
     min-height: 100vh;
     max-width: 100%;
-
 }
 
 nav {
@@ -71,6 +70,108 @@ nav {
     transition: all 0.3s;
 }
 
+
+
+.burgeractive {
+    transform: translateX(0%);
+}
+
+
+.homecontent {
+    padding: 40px;
+    color: #a81e22;
+
+}
+
+.homeintro {
+    color: #a81e22;
+}
+
+.homecontent p {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.homecontent h1,
+h4 {
+    color: whitesmoke;
+    background-color: #a81e22;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #a81e22;
+    padding: 10px 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.gamesintro1,
+.gamesintro2,
+.gamesintro3 {
+    text-decoration: none;
+}
+
+.mybutton {
+    display: block;
+    text-decoration: none;
+    background-color: #a81e22;
+    align-items: center;
+    width: 10%;
+    margin-left: 20%;
+    margin-right: auto;
+    color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #a81e22;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.mybutton:visited {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.ruler {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .topline {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .middleline {
+    opacity: 0;
+}
+
+.toggle .bottomline {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/*Games*/
+
 /*Media*/
 @media screen and (max-width:768px) {
     body {
@@ -100,32 +201,4 @@ nav {
         display: block;
     }
 
-}
-
-.burgeractive {
-    transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-.toggle .topline {
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .middleline {
-    opacity: 0;
-}
-
-.toggle .bottomline {
-    transform: rotate(45deg) translate(-5px, -6px);
 }
