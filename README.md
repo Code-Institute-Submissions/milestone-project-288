@@ -45,10 +45,10 @@ Contact
 - Form 
 
 WireFrames
-![Home Wireframe](images/readme_imgs/wireframe-home.png)
-![Play Wireframe](images/readme_imgs/wireframe-play.png)
-![Leaderboard Wireframe](images/readme_imgs/wireframe-leaderboard.png)
-![Contact Wireframe](images/readme_imgs/wireframe-contact.png)
+![Home Wireframe](assets/images/readme_imgs/wireframe-home.png)
+![Play Wireframe](assets/images/readme_imgs/wireframe-play.png)
+![Leaderboard Wireframe](assets/images/readme_imgs/wireframe-leaderboard.png)
+![Contact Wireframe](assets/images/readme_imgs/wireframe-contact.png)
 
 ## Features
 Shared
@@ -203,60 +203,37 @@ function loadTable(data) {
 }
 
 ```
-# Validation Error;
+#Font: 
+- Issue: 
+Access to font at 'https://blogfonts.com/fonts/m/101/33101/file/METAG___.TTF' from origin 'https://5501-crimson-yak-99i2qpyw.ws-eu17.gitpod.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+- Resolution
+
+# Validation;
+(Commit)[]
 (Html)[https://validator.w3.org/]
-(Commit)[]
-![htmlValCheck1](images/readme_imgs/htmlvalcheck1.png)
-(Commit)[]
-![htmlValCheck2](images/readme_imgs/htmlvalcheck2.png)
-(Commit)[]
-![htmlValCheck3](images/readme_imgs/htmlvalcheck3.png)
-(Commit)[]
-![htmlValCheck4](images/readme_imgs/htmlvalcheck4.png)
-(Commit)[]
-![htmlValCheck5](images/readme_imgs/htmlvalcheck5.png)
-(Commit)[]
-![htmlValCheckFinal](images/readme_imgs/htmlvalcheckFinal.png)
+![htmlValCheckFinal](assets/images/readme_imgs/htmlvalcheckFinal.png)
 
 (CSS)[https://jigsaw.w3.org/css-validator/]
-(Commit)[]
-![cssValCheck1](images/readme_imgs/cssvalcheck1.png)
-(Commit)[]
-![cssValCheck2](images/readme_imgs/cssvalcheck2.png)
-(Commit)[]
-![cssValCheck3](images/readme_imgs/cssvalcheck3.png)
-(Commit)[]
-![csslValCheck4](images/readme_imgs/cssvalcheck4.png)
-(Commit)[]
-![cssValCheck5](images/readme_imgs/cssvalcheck5.png)
-(Commit)[]
-![cssValCheckFinal](images/readme_imgs/cssvalcheckFinal.png)
+![cssValCheckFinal](assets/images/readme_imgs/cssvalcheckFinal.png)
 
 (Javascript)[https://beautifytools.com/javascript-validator.php]
-![jsValCheck1](images/readme_imgs/jsvalcheck1.png)
 
-![jsValCheck2](images/readme_imgs/jsvalcheck2.png)
-
-![jsValCheck3](images/readme_imgs/jsvalcheck3.png)
-
-![jsValCheck4](images/readme_imgs/jsvalcheck4.png)
-
-![jsValCheck5](images/readme_imgs/jsvalcheck5.png)
-
-![jsValCheckFinal](images/readme_imgs/jsvalcheckFinal.png)
+![jsValCheckFinal](assets/images/readme_imgs/jsvalcheckFinal.png)
 
 
 ### Navigation / Hamburger Menu
 
 
-### Per page-section breakdown (as built)
-TODO: 
-
 ## Deployment
-TODO: Github Pages
+- Github pages
+I've opted to use [Github Pages](https://evane123.github.io/milestone-project-2/) 
 
-### Content
-TODO: 
+The reason for this decision is due to ease of use. With my code already on Github, using Pages will save essential time avoiding the set up of multiple services and server space. 
+
+In the future, I would like to host my website(s) myself. This would be experience, and to offer a more professional feel to the site. 
+
+https://evane123.github.io/milestone-project-2/### Content
+
 
 ### Media
 TODO: 
@@ -266,7 +243,11 @@ TODO:
 
 ## Credits
 [kecode.info](https://keycode.info/)
+- Helped with testing keyevents
 [jsonbin.io](https://jsonbin.io/)
+- Made updating the leaderboard much easier. 
+
 The StackOverflow Community: 
 [exported classes](https://stackoverflow.com/questions/52787527/javascript-creating-an-event-listener-for-an-exported-class)
 [Tables](https://stackoverflow.com/questions/7271490/delete-all-rows-in-an-html-table)
+and many more
