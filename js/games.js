@@ -205,8 +205,8 @@ export const Game3MantisMemory = () => {
 
             } else if (cardsChosen[0] === cardsChosen[1]) { // Handle match by name: IF MATCH
                 //Set cards to Success card
-                cards[optionOneId].setAttribute('src', 'images/white.png')
-                cards[optionTwoId].setAttribute('src', 'images/white.png')
+                cards[optionOneId].setAttribute('src', 'assets/images/white.png')
+                cards[optionTwoId].setAttribute('src', 'assets/images/white.png')
 
                 //Remove event listeners so you can't click it again
                 cards[optionOneId].removeEventListener('click', flipCard)

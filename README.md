@@ -1,10 +1,10 @@
 <h1 align="center">The METAL GEAR GAUNTLET</h1>
-[Milestone Project](TODO: Link when deployed)
+[Milestone Project](https://evane123.github.io/milestone-project-2/home.html)
 
 This project is inspired by my love and enjoyment of the [Metal Gear®](https://en.wikipedia.org/wiki/Metal_Gear) series.
 
 The Metal Gear Gauntlet is a website is for fans of the series, or anyone else who needs a 15 minute break from whatever they are focusing on. In the [PLAY](Link to Play) Section, the user will have to run the through a gauntlet of Javascript browser games, to try and claim the top score!
-The current live leaderboard can be found here: [Leaderboard](link to leaderboard)
+The current live leaderboard can be found here: [Leaderboard](https://evane123.github.io/milestone-project-2/leaderboard.html)
 
 ## UX 
 Core Audience: 
