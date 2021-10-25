@@ -98,9 +98,10 @@ hamburgerMenu()
 
 GetScores()
 - Using fetch and an open API for storing JSON Objects [jsonbin.io](https://jsonbin.io/) I was able to populate the leaderboard on-load. 
+
 UpdateScores()
-
-
+- Using fetch and a PUT method, I'm replacing the stored JSON object array with the previously Fetched objects, and using.push to add the
+    the passed in object. 
 ### Features Left to Implement
 - I would like to add more games. I will likely continue work on this in my own time, adding more MGS Themed javascript-based games such as;
     - Tetris
@@ -109,6 +110,7 @@ UpdateScores()
     - Space invaders styled game themed 
 
 - I would also like to implement a database for the leaderboard, and offer a login and game-history section where the user can see previous scores and attempts. 
+- I would like to implement a real Emailing function, instead of logging to console and wiping the form. 
 
 ## Technologies Used TODO: 
 - [HTML](https://www.w3schools.com/html/)

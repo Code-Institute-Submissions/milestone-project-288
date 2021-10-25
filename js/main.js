@@ -48,7 +48,6 @@ function test(e) {
     }
     if (e.keyCode === 50) {
         GetScores();
-
     }
 }
 
@@ -81,7 +80,18 @@ function ContactForm() {
             errElement.innerHTML = `<p>${errs.join(", ")}</p>`
             errElement.style.padding = "10px";
             errElement.style.display = "block";
+        } else if (errs.length == 0) {
+            e.preventDefault();
+            console.log(name.value);
+            console.log(email.value);
+            console.log(text.value);
+            console.log("Submitted:");
+            name.value = '';
+            email.value = '';
+            text.value = '';
+            errElement.style.display = "none";
         }
+
 
     });
 }
