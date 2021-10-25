@@ -1,11 +1,16 @@
 * {
     margin: 0px;
     padding: 0px;
+
     box-sizing: border-box;
+    font-family: 'metal-gear-4', sans-serif;
 }
 
 body {
     background-color: rgb(204, 204, 204);
+    min-height: 100vh;
+    max-width: 100%;
+
 }
 
 nav {

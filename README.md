@@ -47,9 +47,6 @@ Contact
 WireFrames
 ![Home Wireframe](images/readme_imgs/wireframe-home.png)
 ![Play Wireframe](images/readme_imgs/wireframe-play.png)
-![Play-Game1 Wireframe](images/readme_imgs/wireframe-play-game1.png)
-![Play-Game2 Wireframe](images/readme_imgs/wireframe-play-game2.png)
-![Play-Game3 Wireframe](images/readme_imgs/wireframe-play-game3.png)
 ![Leaderboard Wireframe](images/readme_imgs/wireframe-leaderboard.png)
 ![Contact Wireframe](images/readme_imgs/wireframe-contact.png)
 

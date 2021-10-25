@@ -1,0 +1,37 @@
+.leaderboardsection {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#leaderboardtable {
+    border-collapse: collapse;
+    min-width: 400px;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.leaderboardheading th {
+    background-color: #a81e22;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+#leaderboardtable tr {
+    background-color: #fbe8e9;
+
+}
+
+#leaderboardtable tr:nth-of-type(even) {
+    background-color: #f5f8f8;
+}
+
+#leaderboardtable tr:last-of-type {
+    border-bottom: whitesmoke 1px solid;
+}
