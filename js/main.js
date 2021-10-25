@@ -6,13 +6,18 @@ import {
     GetScores,
     UpdateScores
 } from "./leaderboard.js";
+import {
+    Game1RockPapScis
+} from "./games.js"
+
+let playerscore = 0;
+let gamescore = 0;
 
 
 document.addEventListener('DOMContentLoaded', () => {
     //Shared
     getActivePage();
     hamburgerMenu();
-
 })
 
 function buildPage(page) {
@@ -22,6 +27,7 @@ function buildPage(page) {
     } else if (page[0] === "play") {
         console.log(page[0]);
         insertUnderline(page[0]);
+        LoadGames();
     } else if (page[0] === "leaderboard") {
         console.log(page[0]);
         insertUnderline(page[0]);
@@ -32,6 +38,7 @@ function buildPage(page) {
         ContactForm()
     }
 }
+
 
 function getActivePage() {
     let page = window.location.pathname.split("/").pop().split(".");
@@ -97,4 +104,34 @@ function ContactForm() {
 function validateEmail(email) {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
+}
+
+
+
+function LoadGames() {
+    //Loadingbar
+    let isloading = false
+
+    document.getElementById("game").addEventListener("click", function() {
+        if (!isloading) {
+            isloading = true
+            let loading = document.createElement("div")
+            loading.classList.add("loader");
+
+            game.appendChild(loading)
+
+            setTimeout(function() {
+                loading.remove();
+                isloading = false
+            }, 10000);
+        }
+    });
+
+    let gp = document.getElementsByClassName("gamepane");
+    let udiv = document.createElement("div");
+    let ediv = document.createElement("div");
+    udiv.classList.add("user");
+    ediv.classList.add("enemy");
+
+    // Game1RockPapScis()
 }

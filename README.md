@@ -210,19 +210,15 @@ Access to font at 'https://blogfonts.com/fonts/m/101/33101/file/METAG___.TTF' fr
 - Resolution
 
 # Validation;
-(Commit)[]
 (Html)[https://validator.w3.org/]
-![htmlValCheckFinal](assets/images/readme_imgs/htmlvalcheckFinal.png)
-
 (CSS)[https://jigsaw.w3.org/css-validator/]
-![cssValCheckFinal](assets/images/readme_imgs/cssvalcheckFinal.png)
-
 (Javascript)[https://beautifytools.com/javascript-validator.php]
 
-![jsValCheckFinal](assets/images/readme_imgs/jsvalcheckFinal.png)
-
+Ran out of time. 
 
 ### Navigation / Hamburger Menu
+- Using Media Queries in CSS and Javascript functions, the hamburger icon is mimicking an animation when the end user clicks on it. 
+It goes from 3 lines, to an X. 
 
 
 ## Deployment
@@ -235,13 +231,10 @@ In the future, I would like to host my website(s) myself. This would be experien
 
 https://evane123.github.io/milestone-project-2/### Content
 
-
 ### Media
-TODO: 
 
 ### Acknowledgements
-TODO: 
-
+The inspiration for this site came from trying to come up with an engaging idea for putting Javascript to use. 
 ## Credits
 [kecode.info](https://keycode.info/)
 - Helped with testing keyevents
@@ -249,6 +242,6 @@ TODO:
 - Made updating the leaderboard much easier. 
 
 The StackOverflow Community: 
-[exported classes](https://stackoverflow.com/questions/52787527/javascript-creating-an-event-listener-for-an-exported-class)
-[Tables](https://stackoverflow.com/questions/7271490/delete-all-rows-in-an-html-table)
+- [exported classes](https://stackoverflow.com/questions/52787527/javascript-creating-an-event-listener-for-an-exported-class)
+- [Tables](https://stackoverflow.com/questions/7271490/delete-all-rows-in-an-html-table)
 and many more
